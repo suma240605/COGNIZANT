@@ -1,0 +1,183 @@
+DESIGN PATTERNS
+
+Design Patterns are reusable solutions to common software design problems. They provide a structured way of solving problems and help in writing maintainable, flexible, and scalable code. Instead of creating a new solution every time, developers use proven design patterns.
+
+
+
+1. Creational Patterns
+
+These patterns deal with object creation. They provide different ways to create objects while keeping the code flexible and reusable.
+
+Examples:
+
+ Singleton Pattern
+ Factory Pattern
+ Builder Pattern
+
+Example:
+When constructing a house, you create different rooms step by step according to the requirement. Similarly, creational patterns help create objects in a controlled and efficient manner.
+
+
+
+Singleton Pattern
+
+This pattern ensures that only one instance of a class is created and provides a global access point to it.
+
+Example:
+A school has only one Principal. Every student and teacher refers to the same Principal rather than creating multiple Principals.
+
+Use Cases:
+
+ Database Connection
+ Printer Manager
+ Configuration Settings
+
+
+
+Factory Pattern
+
+This pattern provides a way to create objects without specifying the exact class that will be created.
+
+Example:
+A Vehicle Factory can produce Cars, Bikes, or Buses. The user only asks for a vehicle, and the factory decides which object to create.
+
+Use Cases:
+
+ Payment Systems
+ Vehicle Creation
+ Notification Services
+
+
+
+Builder Pattern
+
+This pattern is used to create complex objects step by step. Different versions of the object can be created using the same construction process.
+
+Example:
+When ordering a Burger, some customers may want cheese, some may want extra sauce, and others may want both. The burger is built step by step according to the customer's requirements.
+
+Use Cases:
+
+ House Construction
+ Pizza/Burger Customization
+ Complex Object Creation
+
+
+
+2. Structural Patterns
+
+These patterns deal with how classes and objects are organized and connected to form larger structures.
+
+Examples:
+
+ Adapter Pattern
+ Decorator Pattern
+ Facade Pattern
+
+Example:
+Structural patterns help different components work together efficiently, even if they were not originally designed to do so.
+
+
+
+Adapter Pattern
+
+This pattern allows incompatible interfaces to work together by acting as a bridge between them.
+
+Example:
+An Indian charger cannot directly fit into a US socket. An adapter is used to make them compatible.
+
+Use Cases:
+
+ Legacy System Integration
+ Third-Party Libraries
+ Different Hardware Connections
+
+
+
+Decorator Pattern
+
+This pattern allows additional features to be added to an object dynamically without changing its original code.
+
+Example:
+A basic coffee can be customized by adding milk, cream, or chocolate. Each addition enhances the coffee without changing the original coffee object.
+
+Use Cases:
+
+ UI Components
+ Coffee Ordering Systems
+ Feature Enhancements
+
+
+
+Facade Pattern
+
+This pattern provides a simple interface to a complex system by hiding its internal complexity.
+
+Example:
+A TV remote allows users to turn on the TV with a single button, even though many internal operations happen behind the scenes.
+
+Use Cases:
+
+ Banking Systems
+ Home Automation
+ Complex APIs
+
+
+
+3. Behavioral Patterns
+
+These patterns deal with communication and interaction between objects.
+
+Examples:
+
+ Observer Pattern
+ Strategy Pattern
+ Command Pattern
+
+Example:
+Behavioral patterns define how objects communicate and share responsibilities effectively.
+
+
+
+Observer Pattern
+
+This pattern defines a one-to-many relationship where multiple objects are notified automatically when one object changes.
+
+Example:
+When a YouTube channel uploads a video, all subscribers receive a notification.
+
+Use Cases:
+
+ Notification Systems
+ Social Media Updates
+ Event Handling
+
+
+
+Strategy Pattern
+
+This pattern defines multiple algorithms and allows the required algorithm to be selected at runtime.
+
+Example:
+Google Maps provides different routes for Car, Bike, and Walking. The route calculation strategy changes based on the selected option.
+
+Use Cases:
+
+ Payment Methods
+ Route Planning
+ Sorting Algorithms
+
+
+
+Command Pattern
+
+This pattern converts a request into an object, allowing requests to be stored, queued, or executed later.
+
+Example:
+A TV Remote stores commands such as ON, OFF, and Volume Up. Pressing a button executes the corresponding command.
+
+Use Cases:
+
+ Remote Controls
+ Menu Actions
+ Undo/Redo Operations
