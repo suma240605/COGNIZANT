@@ -1,0 +1,4 @@
+function Module7({ topic = "ReactJS" }) {
+  return <p>7. ReactJS-HOL: Default topic is {topic}</p>;
+}
+export default Module7;
