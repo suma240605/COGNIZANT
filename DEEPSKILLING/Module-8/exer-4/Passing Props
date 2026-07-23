@@ -1,0 +1,7 @@
+function Child(props) {
+  return <h4>4. ReactJS-HOL: {props.message}</h4>;
+}
+function Module4() {
+  return <Child message="Hands-on in this document via Props" />;
+}
+export default Module4;
