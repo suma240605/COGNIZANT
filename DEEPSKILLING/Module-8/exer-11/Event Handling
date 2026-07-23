@@ -1,0 +1,5 @@
+function Module11() {
+  const handleClick = () => alert("11. ReactJS-HOL Button Clicked!");
+  return <button onClick={handleClick}>Click Module 11</button>;
+}
+export default Module11;
