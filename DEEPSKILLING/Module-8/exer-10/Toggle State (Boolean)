@@ -1,0 +1,10 @@
+import { useState } from 'react';
+function Module10() {
+  const [isOn, setIsOn] = useState(false);
+  return (
+    <button onClick={() => setIsOn(!isOn)}>
+      10. ReactJS-HOL Status: {isOn ? "Active" : "Inactive"}
+    </button>
+  );
+}
+export default Module10;
