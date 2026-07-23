@@ -1,0 +1,7 @@
+import { useEffect, useState } from 'react';
+function Module16() {
+  const [msg, setMsg] = useState('Loading...');
+  useEffect(() => { setMsg('16. ReactJS-HOL Loaded Successfully!'); }, []);
+  return <p>{msg}</p>;
+}
+export default Module16;
