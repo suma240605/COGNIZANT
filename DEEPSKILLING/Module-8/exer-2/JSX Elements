@@ -1,0 +1,5 @@
+function Module2() {
+  const element = <h2>2. ReactJS-HOL: Rendering Expressions in JSX</h2>;
+  return element;
+}
+export default Module2;
