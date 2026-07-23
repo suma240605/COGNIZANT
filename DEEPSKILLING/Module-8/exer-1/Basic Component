@@ -1,0 +1,4 @@
+function Module1() {
+  return <h1>1. ReactJS-HOL: Basic Functional Component</h1>;
+}
+export default Module1;
