@@ -1,0 +1,5 @@
+function Module3() {
+  const name = "Cognizant Trainee";
+  return <div>3. ReactJS-HOL: Welcome, {name}</div>;
+}
+export default Module3;
