@@ -1,0 +1,10 @@
+function Header() { return <h5>Header Section</h5>; }
+function Module6() {
+  return (
+    <div>
+      6. ReactJS-HOL
+      <Header />
+    </div>
+  );
+}
+export default Module6;
