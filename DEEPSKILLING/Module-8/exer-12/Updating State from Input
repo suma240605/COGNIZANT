@@ -1,0 +1,11 @@
+import { useState } from 'react';
+function Module12() {
+  const [text, setText] = useState('');
+  return (
+    <div>
+      <input onChange={(e) => setText(e.target.value)} placeholder="12. Type here" />
+      <p>Output: {text}</p>
+    </div>
+  );
+}
+export default Module12;
