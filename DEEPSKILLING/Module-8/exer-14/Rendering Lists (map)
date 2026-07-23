@@ -1,0 +1,10 @@
+function Module14() {
+  const list = ['Item 1', 'Item 2', 'Item 3'];
+  return (
+    <ul>
+      14. ReactJS-HOL
+      {list.map((item, index) => <li key={index}>{item}</li>)}
+    </ul>
+  );
+}
+export default Module14;
