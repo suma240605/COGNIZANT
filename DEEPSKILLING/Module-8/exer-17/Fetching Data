@@ -1,0 +1,14 @@
+import { useEffect, useState } from 'react';
+function Module17() {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    setData(['Data A', 'Data B']);
+  }, []);
+  return (
+    <div>
+      <p>17. ReactJS-HOL Fetched Data:</p>
+      {data.map((d, i) => <span key={i}>{d} </span>)}
+    </div>
+  );
+}
+export default Module17;
