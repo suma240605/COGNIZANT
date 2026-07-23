@@ -1,0 +1,7 @@
+function UserCard({ name, module }) {
+  return <p>5. ReactJS-HOL: {name} completed {module}</p>;
+}
+function Module5() {
+  return <UserCard name="Developer" module="Module 5" />;
+}
+export default Module5;
