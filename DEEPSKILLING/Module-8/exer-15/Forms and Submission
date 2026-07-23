@@ -1,0 +1,12 @@
+import { useState } from 'react';
+function Module15() {
+  const [val, setVal] = useState('');
+  const handleSubmit = (e) => { e.preventDefault(); alert(`Submitted: ${val}`); };
+  return (
+    <form onSubmit={handleSubmit}>
+      15. ReactJS-HOL <input value={val} onChange={(e) => setVal(e.target.value)} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+export default Module15;
